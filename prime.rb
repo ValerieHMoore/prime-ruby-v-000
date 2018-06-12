@@ -5,9 +5,6 @@ def prime?(integer)
     if integer % num == 0
       prime = false
     end
-    if integer < 0
-      prime = false
-    end
   end
   prime
 end
